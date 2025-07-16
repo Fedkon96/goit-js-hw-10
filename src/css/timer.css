@@ -1,0 +1,51 @@
+main {
+  padding: 40px;
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.flatpickr-input {
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 8px;
+}
+
+.input {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+
+button {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: 60px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.timer {
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.label {
+  text-align: center;
+  text-transform: uppercase;
+}
